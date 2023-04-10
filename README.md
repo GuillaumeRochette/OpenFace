@@ -10,10 +10,10 @@ sudo apt install \
   libdlib-dev \
   libboost-all-dev \
   libsqlite3-dev
-# Download the installer.py
+# Download the install.py
 wget https://raw.githubusercontent.com/GuillaumeRochette/OpenFace/master/install.py
-# Run the installer.py
-python installer.py
+# Run the install.py
+python install.py
 ```
 
 

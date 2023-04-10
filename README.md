@@ -1,5 +1,6 @@
 Simpler installation of OpenFace on Ubuntu 22.04.
 ```bash
+# Install these system-wide.
 sudo apt install \
   build-essential \
   cmake \
@@ -10,6 +11,10 @@ sudo apt install \
   libdlib-dev \
   libboost-all-dev \
   libsqlite3-dev
+# Download the installer.py
+wget https://raw.githubusercontent.com/GuillaumeRochette/OpenFace/master/install.py
+# Run the installer.py
+python installer.py
 ```
 
 

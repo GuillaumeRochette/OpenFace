@@ -145,7 +145,7 @@ if (${CMAKE_CXX_COMPILER_ID} STREQUAL "GNU")
 endif ()
 
 # dlib
-find_package(dlib 19.13)
+find_package(dlib 19.10)
 if(${dlib_FOUND})
     message("dlib information:")
     message("  dlib version: ${dlib_VERSION}")

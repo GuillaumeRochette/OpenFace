@@ -1,3 +1,18 @@
+Simpler installation of OpenFace on Ubuntu 22.04.
+```bash
+sudo apt install \
+  build-essential \
+  cmake \
+  curl \
+  wget \
+  libopenblas-dev \
+  libopencv-dev \
+  libdlib-dev \
+  libboost-all-dev \
+  libsqlite3-dev
+```
+
+
 # OpenFace 2.2.0: a facial behavior analysis toolkit
 
 [![Build Status](https://travis-ci.org/TadasBaltrusaitis/OpenFace.svg?branch=master)](https://travis-ci.org/TadasBaltrusaitis/OpenFace)

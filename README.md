@@ -4,7 +4,6 @@ Simpler installation of OpenFace on Ubuntu 22.04.
 sudo apt install \
   build-essential \
   cmake \
-  curl \
   wget \
   libopenblas-dev \
   libopencv-dev \

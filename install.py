@@ -8,7 +8,7 @@ import shlex
 import shutil
 
 DEFAULT_INSTALL_PATH = Path(os.environ["HOME"]) / "OpenFace"
-DEFAULT_PROFILE_PATH = Path(os.environ["HOME"]) / ".profile"
+DEFAULT_PROFILE_PATH = Path(os.environ["HOME"]) / ".bashrc"
 
 REPOSITORY_URL = "https://github.com/GuillaumeRochette/OpenFace"
 LICENSE_URL = "https://github.com/TadasBaltrusaitis/OpenFace/blob/master/OpenFace-license.txt"

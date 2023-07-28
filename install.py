@@ -130,7 +130,7 @@ def main():
     print(path_cmd)
     print("Otherwise, you will have to manually add it yourself.")
 
-    if args.add_to_login_shell:
+    if args.add_to_login_shell is None:
         print("Do you wish to add OpenFace to the PATH environment variable automatically?")
         ans = input("[yes|no] >>> ").lower()
         while ans not in ["yes", "no"]:
